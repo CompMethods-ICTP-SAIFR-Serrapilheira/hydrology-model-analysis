@@ -2,19 +2,17 @@
 
 This project contains hydrology-related outputs from two versions of the dynamic vegetation model CAETÊ (CArbon and Ecosystem Trait-based Evaluation model) which I developed during my undergraduate studies.
 
-## versions
+## Versions
 
 The two versions analysed here are:
 
-  IC-CAETE-DVM
+IC-CAETE-DVM
+This version contains an updated hydrological module, with the implementation of an additional soil layer to the simulation, variable water retention capabilities derived from soil texture and a new runoff calculation system.
 
-    This version contains an updated hydrological module, with the implementation of an additional soil layer to the simulation, variable water retention capabilities derived from soil texture and a new runoff calculation system.
+PVM-CAETE-DVM
+sThis version contains the previous hydrological module used on CAETÊ, which is based on CPTEC-PVM model (reference).
 
-  PVM-CAETE-DVM
-
-    This version contains the previous hydrological module used on CAETÊ, which is based on CPTEC-PVM model (reference).
-
-The entire main version of the model is available at https://github.com/jpdarela/CAETE-DVM
+The entire main version of the model is available [here](https://github.com/jpdarela/CAETE-DVM)
 
 ## Dependencies
 
@@ -29,7 +27,7 @@ R Dependencies:
 - ncdf4
 - zoo
 
-##__CONTRIBUTORS__
+## Contributors
 
 The model used in this analysis is part of the work of several people. Here is the list of contributors to the CAETÊ project:
 
