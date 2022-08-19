@@ -37,3 +37,16 @@ ggplot(wsoil_rmean_df, aes(x = seq(1,13880,1))) +
   geom_line(aes(y = wsoil_rmean_df$ic_wsoil_rmean), color = '#111111') +
   geom_line(aes(y = wsoil_rmean_df$pvm_wsoil_rmean), color = '#775566') +
   theme_bw()
+
+
+
+
+
+# CHECKLIST:
+  # theme with proper colors;
+  # save_fig sessions
+  # axis labels
+  # timestep in years instead of days
+
+
+
