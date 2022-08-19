@@ -2,3 +2,4 @@ data/raw/*
 
 .Rhistory
 .Rproj.user
+src/R/local_notes.R

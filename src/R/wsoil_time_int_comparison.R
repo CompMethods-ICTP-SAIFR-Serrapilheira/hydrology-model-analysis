@@ -31,8 +31,9 @@ ic_plot <- ggplot() +
   coord_sf(xlim = c(-40, -85), ylim = c(-25, 15), expand = FALSE) +
   guides(fill = guide_colorbar(barheight = 25, barwidth = 1.5)) +
   scale_fill_gradient(legend_title, low = '#09b0ea', high = '#011217', limits = c(50,600), breaks = break_scale,labels = break_scale) +
+  labs(x = "CAETE-IC") +
   theme_bw() +
-  theme(axis.title = element_blank())
+  theme(axis.title.y = element_blank())
 
 
 # CAETE-PVM map
@@ -42,8 +43,9 @@ pvm_plot <- ggplot() +
   coord_sf(xlim = c(-40, -85), ylim = c(-25, 15), expand = FALSE) +
   guides(fill = guide_colorbar(barheight = 25, barwidth = 1.5)) +
   scale_fill_gradient(legend_title, low = '#09b0ea', high = '#011217', limits = c(50,600), breaks = break_scale,labels = break_scale) +
+  labs(x = "CAETE-PVM") +
   theme_bw() +
-  theme(axis.title = element_blank())
+  theme(axis.title.y = element_blank())
 
 # ======================================================
 
