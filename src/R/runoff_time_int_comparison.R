@@ -50,6 +50,6 @@ pvm_plot <- ggplot() +
 
 # Saving figure
 ggarrange(ic_plot, pvm_plot, ncol = 2, nrow = 1, common.legend = TRUE, legend = 'right', label.x = c("CAETE-IC", "CAETE-PVM") ) %>%
-  ggexport(filename = "outputs/figs/runoff_time.png", width = 1584, height = 871)
+  ggexport(filename = "outputs/figs/runoff_time.png", width = 1584, height = 871, dpi = 300)
 
 # ======================================================

@@ -51,7 +51,6 @@ pvm_plot <- ggplot() +
 
 # Saving figure
 ggarrange(ic_plot, pvm_plot, ncol = 2, nrow = 1, common.legend = TRUE, legend = 'right') %>%
-  ggexport(filename = "outputs/figs/wsoil_time.png", width = 1584, height = 871)
+  ggexport(filename = "outputs/figs/wsoil_time.png", width = 1584, height = 871, dpi = 300)
 
 # ======================================================
-
