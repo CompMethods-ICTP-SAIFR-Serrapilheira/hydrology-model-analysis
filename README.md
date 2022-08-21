@@ -10,7 +10,7 @@ The two versions analysed here are:
 - This version contains an updated hydrological module, with the implementation of an additional soil layer to the simulation, variable water retention capabilities derived from soil texture and a new runoff calculation system.
 
 #### PVM-CAETE-DVM
-- This version contains the previous hydrological module used on CAETÊ, which is based on CPTEC-PVM model (reference).
+- This version contains the previous hydrological module used on CAETÊ, which is based on the CPTEC-PVM model.
 
 ###### THE MODEL
 [The entire main version](https://github.com/jpdarela/CAETE-DVM) of the model is available [here](https://github.com/jpdarela/CAETE-DVM)
