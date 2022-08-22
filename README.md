@@ -43,18 +43,18 @@ The two versions analysed here are:
     ./
     ├── data/
     │   └── processed
+    ├── docs
     ├── outputs/
-    │   ├── docs
     │   └── figs     
     ├── src/
-    │   ├── R/
-    │   │   └── mkdown 
+    │   ├── R
     │   └── shell
     └── README.md
 ```
 
 - In `data` you will find the `processed` data from CAETÊ raw outputs by the shell script located in `src`. The `raw` folder was not included in this repository due to the size of the raw files, which exceeds GitHub limit.
-- The `outputs` folder contains outputs from R and RMarkdown scripts, divided in `docs` for the report and `figs` for all the graphs and maps generated.
+- `docs` contains RMarkdown code, `.bib` and `.csl` used by the script and its output, the report in PDF format.
+- The `outputs` folder contains outputs from R scripts, located in `figs`.
 - `src` is where all code is located. `R` folder for R code, `shell` for Shell script. 
 
 ## Contributors
